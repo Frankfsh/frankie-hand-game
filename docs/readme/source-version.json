@@ -1,0 +1,14 @@
+{
+  "repository": "frankie-hand-game",
+  "source_commit": "56b43a4c7c28ddc9bbab1936c5949a85c1c32f67",
+  "captured_on": "2026-11-05",
+  "source_state": "Current local working tree; existing uncommitted app edits were included where present.",
+  "materials": [
+    {
+      "file": "assets/hand-guide.svg",
+      "kind": "original current UI vector",
+      "path": "index.html#hand-guide",
+      "note": "Exact hand-guide path from the current interface. No camera capture or loading-overlay screenshot is used."
+    }
+  ]
+}

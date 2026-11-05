@@ -1,0 +1,21 @@
+{
+  "title": "Hand Clap",
+  "tagline": "Clap to the rhythm. Make your move.",
+  "category": "Play / Rhythm and gesture",
+  "layout": "grid",
+  "assets": [
+    {
+      "src": "assets/hand-guide.svg",
+      "fit": "contain"
+    }
+  ],
+  "signature": "assets/frankie.svg",
+  "provenance": [
+    {
+      "file": "assets/hand-guide.svg",
+      "kind": "original current UI vector",
+      "path": "index.html#hand-guide",
+      "note": "Exact hand-guide path from the current interface. No camera capture or loading-overlay screenshot is used."
+    }
+  ]
+}
