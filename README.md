@@ -1,31 +1,37 @@
-![Hand Clap — Frankie Hand Game — current product banner](docs/readme/banner.png)
+![Hand Clap](docs/readme/banner.png)
 
-# Hand Clap — Frankie Hand Game
+# Hand Clap
 
-A browser hand-gesture rhythm game with ink-like visuals, energy management and an on-screen opponent.
+Follow the beat, read your opponent, and choose a gesture before the next move.
 
-## Features
+[Guide](docs/guide.md) · [Run locally](#run-locally)
 
-- Follow the three-beat rhythm and choose charging, attack or defense gestures.
-- Track player and opponent energy, with multiple attack and defense strengths.
-- Adjust the rhythm speed using the interface control.
+## What it does
 
-## Getting started
+- Play the three-beat rhythm with charging, attack and defense gestures.
+- Manage player and opponent energy across different move strengths.
+- Adjust rhythm speed with the on-screen control.
 
-Serve the directory locally with Python 3:
+## Run locally
+
+Serve the directory with Python 3:
 
 ```sh
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-Open http://localhost:8000. The game loads P5.js, P5.sound and ml5 from external CDNs, and requests camera access for gesture recognition. Actual gameplay needs a working camera permission and model load; opening the source files alone does not verify these.
+Open http://localhost:8000. There is no package-install or build step.
 
-## Project notes
+## Before you start
 
-`index.html` contains the interface and original hand-guide SVG, `style.css` controls presentation, `sketch.js` implements gesture/rhythm/game state, and `sound/` contains audio. No package installation or build step is defined.
+Gesture play needs camera permission and a loaded hand-recognition model. P5.js, P5.sound and ml5 load from external CDNs. The banner uses the original interface hand guide, not a camera image.
 
-## Development
+## For developers
 
-Use the local server to check asset loading, the permission flow, rhythm controls and gameplay. This documentation update did not enable the camera or verify gesture recognition.
+Check model loading, the permission flow, rhythm controls and gameplay against the local server. Source-file roles are described in the [project guide](docs/guide.md).
 
-Banner sources and update instructions: [README artwork](docs/readme/README.md).
+[Project guide](docs/guide.md) · [Artwork](docs/readme/README.md)
+
+---
+
+Made by [Songhai Fan](https://github.com/SonghaiFan) · A Frankie project
