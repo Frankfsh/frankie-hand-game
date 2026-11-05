@@ -2,6 +2,8 @@
 
 # Hand Clap
 
+[English](README.md) · [简体中文](README.zh-CN.md)
+
 Follow the beat, read your opponent, and choose a gesture before the next move.
 
 [Guide](docs/guide.md) · [Run locally](#run-locally)
